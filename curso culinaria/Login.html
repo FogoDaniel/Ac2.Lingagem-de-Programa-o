@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../CSS/Style.css" />
+        <title></title>
+        <style>
+            body {
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                display: flex;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                background-image: url('https://ilhasmaldivas.com.br/wp-content/uploads/2021/10/ilhas-maldivas-post-refeicoes.jpg');
+            }
+        </style>
+    </head>
+    <body>
+        <div class="form-container">
+            <h1>Cadastrar Usuário</h1>
+            <form action="" method="POST">
+                <div class="nome">
+                    <label for="nome" class="form-label">Nome</label>
+                    <input type="text" class="form-control" id="nome" name="Nome" required />
+                </div>
+                <div class="email">
+                    <label for="email" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" id="email" name="Email" required />
+                </div>
+                <div class="senha">
+                    <label for="senha" class="form-label">Senha</label>
+                    <input type="password" class="form-control" id="senha" name="Senha" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+                <button type="reset" class="btn btn-secondary">Limpar</button>
+            </form>
+        </div>
+    </body>
+</html>
